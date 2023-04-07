@@ -1,0 +1,114 @@
+﻿<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+
+
+
+<style>
+    /* Style the form container */
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 50%;
+        margin: auto;
+    }
+
+    /* Style the input fields */
+    input[type=text], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    /* Style the label */
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    /* Style the submit button */
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+
+        /* Style the submit button on hover */
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+    /* Style the container for the cancel button */
+    /*.cancel-container {
+                            width: 100%;
+                            margin-top: 12px;
+                        }*/
+
+    /* Style the cancel button */
+    .cancel {
+        background-color: #f44336;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+
+        /* Style the cancel button on hover */
+        .cancel:hover {
+            background-color: #d32f2f;
+        }
+</style>
+
+<body>
+    <h2>How can we help You?</h2>
+    <div class="container">
+        <form method="post" enctype="multipart/form-data">
+            <label for="email">Email</label>
+            <input type="text" placeholder="Your email" required>
+
+            <label for="name">Type Of Query</label>
+            <input type="text" asp-for="TypeOfQuery" placeholder="Your Query Type" required>
+
+            <label for="message">Message</label>
+            <textarea asp-for="Description" placeholder="Write your message here" style="height:200px" required></textarea>
+            <br />
+            <br />
+
+            <a href="#" class="btn btn-danger" style="padding-left:1rem; padding-right:1rem;">
+                Cancel
+            </a>
+            <a href="http://mysite.local/DashBoard" onclick="help()" class="btn btn-dark" style="padding-left:1rem; padding-right:1rem;">
+                Submit
+            </a>
+        </form>
+    </div>
+    
+</body>
+
+<script>
+    function help() {
+        window.alert("Successfully Sent!");
+        window.location.href = "https://mysite.local/GetEmp";
+    }
+</script>
+
