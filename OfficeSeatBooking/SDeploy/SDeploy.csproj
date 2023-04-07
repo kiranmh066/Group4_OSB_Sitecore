@@ -340,10 +340,16 @@
     <Content Include="lib\jquery\dist\jquery.min.js" />
     <Content Include="lib\jquery\LICENSE.txt" />
     <Content Include="lib\MicrosoftTeams-image %281%29.png" />
-    <Content Include="Views\LoginPage.cshtml" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\DashBoard.cshtml" />
+    <Content Include="Views\HomePage.cshtml" />
+    <Content Include="Views\AdminLogin.cshtml" />
+    <Content Include="Views\Profile.cshtml" />
+    <Content Include="Views\RegisterEmployee.cshtml" />
+    <Content Include="Views\GetEmpDetail.cshtml" />
+    <Content Include="Views\AddSeat.cshtml" />
+    <Content Include="Views\ViewSeat.cshtml" />
+    <Content Include="Views\AddFloor.cshtml" />
+    <Content Include="Views\ViewFloor.cshtml" />
+    <Content Include="Views\HelpPage.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

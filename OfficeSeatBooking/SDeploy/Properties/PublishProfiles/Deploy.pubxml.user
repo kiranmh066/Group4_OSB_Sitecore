@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\inetpub\wwwroot\xp10p3sc.dev.local</_PublishTargetUrl>
-    <History>True|2023-04-02T15:28:23.5501995Z;</History>
+    <History>True|2023-04-06T11:55:58.5903568Z;False|2023-04-06T17:24:46.9017645+05:30;False|2023-04-06T14:20:43.6612584+05:30;True|2023-04-05T11:45:34.9618959+05:30;True|2023-04-04T15:38:18.6028773+05:30;True|2023-04-02T20:58:23.5501995+05:30;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -256,10 +256,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/08/2018 12:18:16</publishTime>
     </File>
     <File Include="bin/SDeploy.dll">
-      <publishTime>03/04/2023 16:53:07</publishTime>
+      <publishTime>04/07/2023 22:58:40</publishTime>
     </File>
     <File Include="bin/SDeploy.pdb">
-      <publishTime>03/04/2023 16:53:07</publishTime>
+      <publishTime>04/07/2023 22:58:40</publishTime>
     </File>
     <File Include="bin/Sitecore.Data.ResourceItems.Abstractions.dll">
       <publishTime>09/23/2022 12:55:08</publishTime>
@@ -516,17 +516,50 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="lib/MicrosoftTeams-image %281%29.png">
       <publishTime>03/31/2023 15:42:37</publishTime>
     </File>
+    <File Include="Views/AddFloor.cshtml">
+      <publishTime>04/07/2023 22:45:05</publishTime>
+    </File>
+    <File Include="Views/AddSeat.cshtml">
+      <publishTime>04/07/2023 22:45:05</publishTime>
+    </File>
+    <File Include="Views/AdminLogin.cshtml">
+      <publishTime>04/07/2023 11:29:42</publishTime>
+    </File>
     <File Include="Views/DashBoard.cshtml">
-      <publishTime>04/03/2023 14:14:34</publishTime>
+      <publishTime>03/04/2023 14:14:34</publishTime>
+    </File>
+    <File Include="Views/ForgetPassword.cshtml">
+      <publishTime>04/05/2023 12:31:06</publishTime>
+    </File>
+    <File Include="Views/GetEmpDetail.cshtml">
+      <publishTime>04/07/2023 22:51:02</publishTime>
+    </File>
+    <File Include="Views/HelpPage.cshtml">
+      <publishTime>04/07/2023 22:58:33</publishTime>
+    </File>
+    <File Include="Views/HomePage.cshtml">
+      <publishTime>04/07/2023 22:45:05</publishTime>
     </File>
     <File Include="Views/LoginPage.cshtml">
-      <publishTime>04/03/2023 17:51:20</publishTime>
+      <publishTime>04/06/2023 17:38:59</publishTime>
+    </File>
+    <File Include="Views/Profile.cshtml">
+      <publishTime>04/07/2023 19:47:59</publishTime>
+    </File>
+    <File Include="Views/RegisterEmployee.cshtml">
+      <publishTime>04/07/2023 16:58:04</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>03/04/2023 12:27:05</publishTime>
+      <publishTime>04/07/2023 15:31:24</publishTime>
+    </File>
+    <File Include="Views/ViewFloor.cshtml">
+      <publishTime>04/07/2023 22:48:57</publishTime>
+    </File>
+    <File Include="Views/ViewSeat.cshtml">
+      <publishTime>04/07/2023 22:48:57</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>03/04/2023 12:27:04</publishTime>
+      <publishTime>04/07/2023 15:31:23</publishTime>
     </File>
   </ItemGroup>
 </Project>
